@@ -3,10 +3,11 @@ name: build_ErfanGSIs
 on: 
   workflow_dispatch:
     inputs:
-      ROM_URL:
+      ROM_URL:https://o28kad91u0kk1tkej3jr0v5v43tcqv946mojcuccre4m6rkh69cfvbk7.qc.dolfincdnx.net:22016/xdispatch6f133d3d6f336663/bigota.d.miui.com/V12.5.1.0.QDGCNXM/miui_MIMIX2S_V12.5.1.0.QDGCNXM_8326b14c82_10.0.zip?bsreqid=7f19b852f110b9f8dd3f0a0f870ed496&coldbiz=1&bsxdisp=se
+
         description: 'ROM_URL'
         required: true
-      ROM_TYPE:
+      ROM_TYPE: peixl
         description: 'ROM_TYPE'
         required: true
       RELEASE_NAME:
